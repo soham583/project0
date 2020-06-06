@@ -9,10 +9,18 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="styles2.css">
+    <style>
+      @media print{
+            #noprint{
+              display:none;
+            }
+      }
+
+    </style>
 </head>
 <body>
 <!-- Navigation bar-->
-<nav class="navbar navbar-expand-lg navbar-dark" style="background-color:#3d3d3d">
+<nav id="noprint" class="navbar navbar-expand-lg navbar-dark" style="background-color:#3d3d3d">
   <a class="navbar-brand" href="index.html" style="font-family:Comic Sans MS">
       <img src="Untitled.png" height="50px" width="50px">MountainLove
   </a>
@@ -29,10 +37,10 @@
         <a class="nav-link" href="Trekkingguide.html">Trekking Guide <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">About</a>
+        <a class="nav-link" href="about.html">About</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Contact Us</a>
+        <a class="nav-link disabled" href="contact.html" tabindex="-1" aria-disabled="true">Contact Us</a>
       </li>
     </ul>
     <form class="form-inline my-2 my-lg-0">

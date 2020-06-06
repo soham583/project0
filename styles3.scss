@@ -1,0 +1,16 @@
+%blocks{
+    padding: 50px
+}
+
+#aboutml{
+    @extend %blocks;
+    font-family:Comic Sans MS;
+}
+#decl{
+    @extend %blocks;
+    font-family:Courier;
+}
+
+.kdkd{
+    padding-bottom:30px;
+}
