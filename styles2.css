@@ -1,0 +1,21 @@
+.row > div{
+        padding: 20px;
+        border: 1px solid;
+        border-collapse: collapse;
+}
+table {
+         border: 2px solid black;
+         border-collapse: collapse;
+         width: 100%;
+}
+th,td{
+         border: 1px solid black;
+         padding: 5px;
+         text-align:center
+}
+th{
+         background-color:lightgrey;
+}
+#content21 {
+        padding: 50px;
+}
