@@ -1,10 +1,10 @@
-div .row {
-  padding: 10px;
+.row div {
+  padding: 20px;
   text-align: center;
 }
 
 body {
-  background-color: #dbdbdb;
+  background-color: #ededed;
 }
 
 .container {
